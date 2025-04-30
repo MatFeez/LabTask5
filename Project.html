@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Projects - Lab Task 5</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div data-role="page">
+    <div data-role="header" data-position="fixed">
+      <div style="display: flex; align-items: center; justify-content: space-between; padding: 10px;">
+        <div style="display: flex; align-items: center;">
+          <img src="JTMK.jpg" alt="Logo" style="height: 40px;" />
+          <span style="margin-left: 10px; font-weight: bold;">JTMK</span>
+        </div>
+        <div data-role="navbar">
+          <ul>
+            <li><a href="main.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="Project.html" class="ui-btn-active">PROJECTS</a></li>
+            <li><a href="Contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <marquee style="background-color: #ceab93; padding: 10px;" direction="right">
+      Check Out Our Projects
+    </marquee>
+
+    <div style="padding: 20px;">
+      <table border="1" style="width: 100%; background-color: #fffbe9;">
+        <tr>
+          <td style="text-align: center; padding: 20px;">
+            <h1>Our Projects</h1>
+            <hr />
+            <ul data-role="listview" data-inset="true">
+              <li>
+                <img src="roboticarm.jpg" alt="Robotic Arm Project" />
+                <h2>AI-Controlled Robotic Arm</h2>
+                <p>This project showcases a robotic arm powered by Arduino and controlled through AI voice commands. It can perform pick-and-place operations and adapt to different object sizes using sensor calibration.</p>
+                <a href="robotic_arm_report.pdf" target="_blank" data-role="button" data-theme="b">View Full Report (PDF)</a>
+              </li>
+      
+              <li>
+                <img src="web_inventory.png" alt="Inventory Web System" />
+                <h2>Smart Inventory Web System</h2>
+                <p>A full-stack inventory management system for small businesses. Built with HTML, CSS, JavaScript, and PHP with MySQL integration. Includes user login, real-time updates, and report generation.</p>
+                <a href="web_inventory_report.pdf" target="_blank" data-role="button" data-theme="b">View Full Report (PDF)</a>
+              </li>
+      
+              <li>
+                <img src="network_simulation.jpeg" alt="Network Simulation Project" />
+                <h2>Campus Network Simulation using Cisco Packet Tracer</h2>
+                <p>This project simulates a secure campus network with VLAN segmentation, DHCP, DNS, and internet access. It demonstrates troubleshooting techniques, firewall setup, and access control using Cisco Packet Tracer.</p>
+                <a href="campus_network_simulation_report.pdf" target="_blank" data-role="button" data-theme="b">View Full Report (PDF)</a>
+              </li>
+            </ul>
+          </div>
+          </td>
+        </tr>
+      </table>
+
+    <div data-role="footer" data-position="fixed" style="background-color: #ceab93; text-align: center; padding: 10px;">
+      <h3 style="margin: 0;">Copyright © 2025 All Rights Reserved</h3>
+    </div>
+  </div>
+</body>
+</html>
